@@ -1,0 +1,137 @@
+/***************************************************************
+ * 파일명 : style.css
+ * 작성일 : 2019. 08. 08
+ * 작성자 : 한광훈
+ * 내  용 : Game Project CSS
+ ***************************************************************/
+
+ /***************************************************************
+ * MAIN VIEW
+ ****************************************************************/
+.TITLE {
+    width: 800px;
+    margin: 20px auto 0px auto;
+    text-align: center;
+    font: bold 18pt '210 클레이토이 B';
+    font-style: italic;
+    color: rgb(252, 57, 57);
+}
+
+#BG {
+    position: relative;
+    width: 800px;
+    height: 600px;
+    background-image: url(./RESOURCE/images/bg.png);
+    margin: 0px auto 0px auto;
+    border: 10px solid black;
+}
+
+.COMMAND_WRAP {
+    overflow: hidden;
+    width: 800px;
+    margin: 0px auto 0px auto;
+}
+
+.START {
+    float: left;
+    width: 100px;
+    padding: 6px 10px;
+    margin: 10px 3px 0px 0px;
+    border-radius: 10px;
+    font: bold 12px '210 클레이토이 B';
+    color: white;
+    background-color: rgb(184, 68, 23);
+}
+
+.END {
+    float: left;
+    width: 100px;
+    padding: 6px 10px;
+    margin: 10px 20px 0px 3px;
+    border-radius: 10px;
+    font: bold 12px '210 클레이토이 B';
+    color: white;
+    background-color: rgb(17, 122, 26);
+}
+
+select {
+    float: left;
+    width: 100px;
+    padding: 6px 10px;
+    margin: 10px 0px 0px 3px;
+    border: 2px solid rgb(12, 12, 212);
+    border-radius: 10px;
+    font: bold 12px '210 클레이토이 B';
+    color: rgb(11, 74, 211);
+}
+
+.COPYRIGHT {
+    float: right;
+    margin: 0px auto 20px auto;
+    text-align: right;
+    font: bold 12pt '210 클레이토이 B';
+    font-style: italic;
+    color: rgb(35, 8, 78);
+}
+
+ /***************************************************************
+ * HERO UNIT (JAVASCRIPT에서 직접 환경변수로 만들어도 되지만 교육용으로 CSS에 적용)
+ ****************************************************************/
+ .HERO_COMMON {
+    position: absolute;
+ }
+
+.HERO_FRONT_SIDE {
+	background: url('./RESOURCE/images/hero.png') no-repeat 0 0;
+	width: 35px;
+	height: 54px;
+}
+
+.HERO_REAR_SIDE {
+	background: url('./RESOURCE/images/hero.png') no-repeat -35px 0;
+	width: 35px;
+	height: 54px;
+}
+
+.HERO_RIGHT_SIDE {
+    background: url('./RESOURCE/images/hero.png') no-repeat -105px 0;
+	width: 35px;
+	height: 54px;
+}
+
+.HERO_LEFT_SIDE {
+	background: url('./RESOURCE/images/hero.png') no-repeat -70px 0;
+	width: 35px;
+	height: 54px;
+}
+
+.HERO_EMPTY {
+	background: url('./RESOURCE/images/empty_hero.png') no-repeat 0 0;
+	width: 35px;
+	height: 54px;
+}
+
+ /***************************************************************
+ * ENEMY UNIT  (JAVASCRIPT에서 직접 환경변수로 만들어도 되지만 교육용으로 CSS에 적용)
+ ****************************************************************/
+.ENEMY_COMMON {
+    position: absolute;
+ }
+
+.ENEMY_LIVE {
+    background: url('./RESOURCE/images/enemy.png') no-repeat 0px 0;
+    width: 45px;
+    height: 54px;
+}
+
+.ENEMY_DIE {
+    background: url('./RESOURCE/images/enemy.png') no-repeat -54px 0;
+    width: 45px;
+    height: 54px;
+}
+
+.ENEMY_EMPTY {
+    background: url('./RESOURCE/images/empty_enemy.png') no-repeat 0px 0;
+    width: 45px;
+    height: 54px;
+}

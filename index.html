@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+
+    <style>
+      /* TEST
+      #navlist {
+        position: relative;
+      }
+      
+      #navlist li {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        position: absolute;
+        top: 0;
+      }
+      
+      #navlist li, #navlist a {
+        height: 44px;
+        display: block;
+      }
+      
+      #home {
+        left: 0px;
+        width: 46px;
+        background: url('./images/img_navsprites.gif') 0 0;
+      }
+      
+      #prev {
+        left: 63px;
+        width: 43px;
+        background: url('./images/img_navsprites.gif') -47px 0;
+      }
+      
+      #next {
+        left: 129px;
+        width: 43px;
+        background: url('./images/img_navsprites.gif') -91px 0;
+      }
+
+      #backgroundImage {
+        z-index: 1;
+      }
+
+      #backgroundImage:before {
+        content: "";
+        position: absolute;
+        z-index: -1;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-image: url(http://static.tumblr.com/25bac3efec28a6f14a446f7c5f46b685/hywphoq/ufoniwv6n/tumblr_static_ldhkrazuoqo4g0s0sk8s4s4s.jpg);
+          background-repeat: no-repeat;
+          background-size: 100%;
+          opacity: 0.8;
+          filter:alpha(opacity=40);
+          height:100%;
+          width:100%;
+      }
+
+      .main{
+        height:320px;
+        width:320px;
+        margin:auto;
+        background-color:green;
+        z-index:-1;
+        opacity: 1;
+        filter:alpha(opacity=100);
+      }
+      */
+
+      /* Main Image / Background Image / Background Color */
+      /*
+      #next {
+        left: 129px;
+        width: 43px;
+        background: url('./images/img_navsprites.gif') -91px 0;
+        background-image: "./images/hero.png";
+        background-color: rgb(37, 198, 209);
+      }
+      */
+
+    /* TEST 1 */
+    /*
+    #next {
+      width: 43px;
+      height: 44px;
+      background: url(./images/img_navsprites.gif) -91px 0;
+    }
+    */
+
+    /* TEST 2 */
+    /*
+    #navlist {
+      position: relative;
+    }
+
+    #navlist li {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      position: absolute;
+      top: 0;
+    }
+
+    #navlist li, #navlist a {
+      height: 44px;
+      display: block;
+    }
+
+    #home {
+      left: 0px;
+      width: 46px;
+      background: url('./images/img_navsprites.gif') 0 0;
+    }
+
+    #prev {
+      left: 63px;
+      width: 43px;
+      background: url('./images/img_navsprites.gif') -47px 0;
+    }
+
+    #next {
+      left: 129px;
+      width: 43px;
+      background: url('./images/img_navsprites.gif') -91px 0;
+    }
+    */
+
+    /* TEST 3 */
+    /*
+    #navlist {
+      position: relative;
+    }
+
+    #navlist li {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      position: absolute;
+      top: 0;
+    }
+
+    #navlist li, #navlist a {
+      height: 44px;
+      display: block;
+    }
+
+    #home {
+      left: 0px;
+      width: 46px;
+      background: url('./images/img_navsprites_hover.gif') 0 0;
+    }
+
+    #prev {
+      left: 63px;
+      width: 43px;
+      background: url('./images/img_navsprites_hover.gif') -47px 0;
+    }
+
+    #next {
+      left: 129px;
+      width: 43px;
+      background: url('./images/img_navsprites_hover.gif') -91px 0;
+    }
+
+    #home a:hover {
+      background: url('./images/img_navsprites_hover.gif') 0 -45px;
+    }
+
+    #prev a:hover {
+      background: url('./images/img_navsprites_hover.gif') -47px -45px;
+    }
+
+    #next a:hover {
+      background: url('img_navsprites_hover.gif') -91px -45px;
+    }
+    */
+
+    </style>
+    
+  </head>
+  <body>
+    <!--
+    <script type="text/javascript">
+
+      // Audio 객체생성 ①
+      // var audio = new Audio('./lucky.mp3');
+  
+      // Audio 객체생성 ②
+      var audio = new Audio();
+      audio.src = "./audio/dying.wav";
+    </script>
+  
+      <input type="button" onClick="audio.play();" value="PLAY"/>
+      <input type="button" onClick="audio.pause();" value="PAUSE"/>
+      <input type="number" onChange="audio.currentTime=this.value"/>
+      <input type="number" onChange="audio.volume=this.value"/>
+    -->
+    <!--
+    <ul id="navlist">
+      <li id="home"><a href="default.asp"></a></li>
+      <li id="prev"><a href="css_intro.asp"></a></li>
+      <li id="next"><a href="css_syntax.asp"></a></li>
+    </ul>
+  -->
+
+    <!-- <img id="home" src="img_trans.gif" width="1" height="1"><br><br> -->
+    <!-- <img id="next" src="img_trans.gif" width="1" height="1"> -->
+
+    <!-- <img id="next" src="./images/hero.png" width="1" height="1"> -->
+    <!-- <img id="next" src="./images/oneTransparent.png" width="20" height="20"> -->
+
+    <!-- TEST 1 -->
+    <!--
+    <img id="home" src="./images/img_trans.png" width="1" height="1"><br><br>
+    <img id="next" src="./images/img_trans.png" width="1" height="1">
+    -->
+
+    <!-- TEST 2 -->
+    <!--
+    <ul id="navlist">
+      <li id="home"><a href="default.asp"></a></li>
+      <li id="prev"><a href="css_intro.asp"></a></li>
+      <li id="next"><a href="css_syntax.asp"></a></li>
+    </ul>
+  -->
+
+    <!-- TEST 3 -->
+    <!--
+    <ul id="navlist">
+      <li id="home"><a href="default.asp"></a></li>
+      <li id="prev"><a href="css_intro.asp"></a></li>
+      <li id="next"><a href="css_syntax.asp"></a></li>
+    </ul>
+  -->
+
+    <!--
+    <div id="backgroundImage">
+        <div class="main">
+        </div>
+    </div>
+    -->
+
+    <div class="TITLE">한 놈만 골라 죽이는 신나는 요괴 박멸게임</div>
+    <div id="BG">
+      <div class="ENEMIES_WRAP"></div>
+    </div>
+    <div class="COMMAND_WRAP">
+      <button class="START">START</button>
+      <button class="END">END</button>
+      <div><select class="TOTAL_MONSTER_CNT" title="요괴수 선택"></select></div>
+      <div><select class="MUST_FIND_MONSTER"  title="찾을 요괴번호 선택"></select></div>
+      <div><select class="MONSTER_SPEED" title="요괴 스피드(낮을 수록 빠름)"></select></div>
+      <div class="COPYRIGHT">Copyright © 2019 Yeri-Kim.</div>
+    </div>
+
+    <script src="./JS/common.js"></script>
+    <script src="./JS/hero.js"></script>
+    <script src="./JS/enemy.js"></script>
+    <script src="./JS/init.js"></script>
+  </body>
+</html>
